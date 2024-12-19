@@ -1,5 +1,4 @@
-* {
-  margin: 0; /* Reset das margens globais */
+margin: 0; /* Reset das margens globais */
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
@@ -8,7 +7,7 @@
 /* Body */
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 100vh;
 }
 
@@ -40,7 +39,7 @@ body {
   background-color: #979524;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 50px 10%;
   align-items: center;
   height: 400px; /* Altura fixa */
